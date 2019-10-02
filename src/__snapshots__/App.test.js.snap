@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="center"
+  >
+    <h1
+      className="title"
+    >
+      Weather Finder
+    </h1>
+    <p
+      className="title"
+    >
+      Find out temperature, condition and more...
+    </p>
+  </div>
+  <br />
+  <section>
+    <form
+      className="col50"
+      onSubmit={[Function]}
+    >
+      <input
+        className="Input"
+        name="city"
+        placeholder="City..."
+        type="text"
+      />
+      <br />
+      <br />
+      <input
+        className="Input"
+        name="country"
+        placeholder="Country..."
+        type="text"
+      />
+      <br />
+      <button
+        className="primary-btn"
+      >
+        Search
+      </button>
+    </form>
+  </section>
+  <div
+    className="weather__info"
+  />
+</div>
+`;
